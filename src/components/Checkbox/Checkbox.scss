@@ -1,0 +1,19 @@
+$text-color: rgb(34, 48, 53);
+$size: 20px;
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: $size - 15px;
+    color: $text-color;
+
+    &__handler {
+        width: $size;
+        height: $size;
+        cursor: pointer;
+    }
+
+    &__label {
+        font-size: $size + 2px;
+    }
+}
