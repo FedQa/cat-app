@@ -1,0 +1,25 @@
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    border: 1px solid chocolate;
+    border-radius: 5%;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+
+    .img {
+        padding-top: 30px;
+        width: 100%;
+        max-height: 350px;
+        object-fit: cover;
+    }
+
+    .controlElements {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
